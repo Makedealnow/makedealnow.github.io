@@ -3,11 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About MakeDealNow</title>
+
+<title>About MakeDealNow | Compare Offers & Save Money</title>
+
+<meta name="description" content="Learn about MakeDealNow and our mission to help consumers compare offers, negotiate better deals, and save money.">
 
 <style>
+
 body{
-    font-family: Arial, sans-serif;
+    font-family:Arial,sans-serif;
     margin:0;
     padding:0;
     background:#f5f5f5;
@@ -27,11 +31,22 @@ nav a{
     font-weight:bold;
 }
 
+nav a:hover{
+    text-decoration:underline;
+}
+
 header{
-    background:#0a4d8c;
+    background:linear-gradient(135deg,#0a4d8c,#0d6efd);
     color:white;
     text-align:center;
-    padding:70px 20px;
+    padding:60px 20px;
+}
+
+.logo{
+    width:450px;
+    max-width:95%;
+    height:auto;
+    margin-bottom:25px;
 }
 
 section{
@@ -44,7 +59,7 @@ section{
     background:white;
     padding:30px;
     border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,.1);
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
     margin-bottom:25px;
 }
 
@@ -58,35 +73,72 @@ section{
     font-weight:bold;
 }
 
-footer{
+.stats{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.stat{
+    flex:1;
+    min-width:200px;
     text-align:center;
-    padding:30px;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.stat h3{
+    color:#0a4d8c;
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+footer{
     background:#222;
     color:white;
+    text-align:center;
+    padding:30px;
 }
+
+footer a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+}
+
 </style>
 </head>
 
 <body>
 
 <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="buyers.html">Buyers</a>
-    <a href="business-partners.html">Business Partners</a>
-    <a href="contact.html">Contact</a>
-    <a href="privacy-policy.html">Privacy</a>
-    <a href="terms.html">Terms</a>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="buyers.html">Buyers</a>
+<a href="business-partners.html">Business Partners</a>
+<a href="contact.html">Contact</a>
+<a href="privacy-policy.html">Privacy</a>
+<a href="terms.html">Terms</a>
 </nav>
 
 <header>
-    <h1>About MakeDealNow</h1>
-    <p>Helping consumers compare offers and make better buying decisions.</p>
+
+<img src="Logo.PNG" alt="MakeDealNow Logo" class="logo">
+
+<h1>About MakeDealNow</h1>
+
+<p>
+Helping consumers compare offers, negotiate better deals, and save money.
+</p>
+
 </header>
 
 <section>
 
 <div class="card">
+
 <h2>Our Mission</h2>
 
 <p>
@@ -94,25 +146,71 @@ MakeDealNow was created to help consumers avoid overpaying by making it easier t
 </p>
 
 <p>
-Instead of spending hours searching, contacting companies, and negotiating prices, buyers can submit a request and review multiple options in one place.
-</p>
-</div>
-
-<div class="card">
-<h2>How It Works</h2>
-
-<p>
-1. Submit your request.<br>
-2. Compare available offers and providers.<br>
-3. Choose the option that best fits your needs and budget.
+Instead of spending hours researching providers, requesting quotes, and negotiating prices, buyers can submit one request and compare multiple options in one place.
 </p>
 
 <p>
-Our goal is to make comparison shopping easier, faster, and more transparent.
+Our goal is simple:
+<strong>help consumers save money while helping businesses connect with motivated buyers.</strong>
 </p>
+
 </div>
 
 <div class="card">
+
+<h2>How MakeDealNow Works</h2>
+
+<p><strong>Step 1:</strong> Submit your request.</p>
+
+<p><strong>Step 2:</strong> Compare available offers and providers.</p>
+
+<p><strong>Step 3:</strong> Choose the option that best fits your needs and budget.</p>
+
+<p>
+The process is designed to save time, increase competition, and help consumers make informed decisions.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Why Competition Benefits Buyers</h2>
+
+<p>
+When businesses know they are competing for your business, they often provide better pricing, better service, and stronger offers.
+</p>
+
+<p>
+Competition creates transparency and gives buyers more control over the purchasing process.
+</p>
+
+</div>
+
+<h2 style="text-align:center;">Why People Use MakeDealNow</h2>
+
+<div class="stats">
+
+<div class="stat">
+<h3>💰</h3>
+<p>Save Money</p>
+</div>
+
+<div class="stat">
+<h3>⚡</h3>
+<p>Save Time</p>
+</div>
+
+<div class="stat">
+<h3>🤝</h3>
+<p>Compare Offers</p>
+</div>
+
+</div>
+
+<br>
+
+<div class="card">
+
 <h2>For Businesses</h2>
 
 <p>
@@ -120,7 +218,7 @@ Businesses can join MakeDealNow to connect with consumers actively searching for
 </p>
 
 <p>
-By participating, businesses have an opportunity to compete for new customers and grow their customer base.
+Partner businesses receive opportunities to compete for motivated buyers and grow their customer base.
 </p>
 
 <p>
@@ -134,8 +232,25 @@ Become a Business Partner
 </section>
 
 <footer>
-<p>© 2026 MakeDealNow.com</p>
-<p>Connecting Buyers and Sellers for Better Deals.</p>
+
+<p><strong>MakeDealNow.com</strong></p>
+
+<p>
+Compare Offers • Negotiate Better Deals • Save Money
+</p>
+
+<p>
+<a href="index.html">Home</a> |
+<a href="about.html">About</a> |
+<a href="buyers.html">Buyers</a> |
+<a href="business-partners.html">Business Partners</a> |
+<a href="contact.html">Contact</a> |
+<a href="privacy-policy.html">Privacy</a> |
+<a href="terms.html">Terms</a>
+</p>
+
+<p>© 2026 MakeDealNow.com. All Rights Reserved.</p>
+
 </footer>
 
 </body>
