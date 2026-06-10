@@ -3,39 +3,79 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Buyers - MakeDealNow</title>
+
+<title>Buyers | Compare Offers & Save Money | MakeDealNow</title>
+
+<meta name="description" content="Submit one request and compare competing offers from businesses. Save money, compare options, and make informed buying decisions with MakeDealNow.">
 
 <style>
+
 body{
-    font-family: Arial, sans-serif;
-    max-width: 1000px;
-    margin: auto;
-    padding: 40px;
-    line-height: 1.6;
-    color: #333;
+    font-family:Arial,sans-serif;
+    margin:0;
+    padding:0;
+    background:#f5f5f5;
+    color:#333;
 }
 
 nav{
-    background: #0a4d8c;
-    padding: 15px;
-    text-align: center;
-    border-radius: 8px;
-    margin-bottom: 30px;
+    background:#083761;
+    padding:15px;
+    text-align:center;
 }
 
 nav a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 0 10px;
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
 }
 
 nav a:hover{
-    text-decoration: underline;
+    text-decoration:underline;
 }
 
-h1,h2{
-    color:#0a4d8c;
+header{
+    background:linear-gradient(135deg,#0a4d8c,#0d6efd);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.logo{
+    width:450px;
+    max-width:95%;
+    height:auto;
+    margin-bottom:25px;
+}
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+    margin-bottom:25px;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.step{
+    flex:1;
+    min-width:250px;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
 }
 
 .cta{
@@ -43,33 +83,55 @@ h1,h2{
     background:#ff9800;
     color:white;
     text-decoration:none;
-    padding:15px 25px;
+    padding:15px 30px;
     border-radius:8px;
     font-weight:bold;
-    margin:20px 0;
+    font-size:18px;
 }
 
 .cta:hover{
     opacity:.9;
 }
 
-.step{
-    background:#f5f5f5;
+.section-title{
+    text-align:center;
+    color:#0a4d8c;
+    margin-bottom:40px;
+}
+
+.category-grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.category{
+    flex:1;
+    min-width:220px;
+    background:white;
     padding:20px;
-    margin:15px 0;
+    text-align:center;
     border-radius:10px;
-    box-shadow:0 2px 5px rgba(0,0,0,.1);
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+    font-weight:bold;
 }
 
 footer{
+    background:#222;
+    color:white;
     text-align:center;
-    margin-top:40px;
-    padding-top:20px;
-    border-top:1px solid #ddd;
+    padding:30px;
 }
-</style>
 
+footer a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+}
+
+</style>
 </head>
+
 <body>
 
 <nav>
@@ -82,66 +144,151 @@ footer{
 <a href="terms.html">Terms</a>
 </nav>
 
-<h1>Find Better Deals with MakeDealNow</h1>
+<header>
+
+<img src="Logo.PNG" alt="MakeDealNow Logo" class="logo">
+
+<h1>Get Competing Offers.<br>Save Money On Almost Anything.</h1>
 
 <p>
-MakeDealNow helps buyers compare options, receive competing offers, and make informed decisions. Whether you're looking for a service, product, or major purchase, we help connect you with businesses ready to earn your business.
+Submit one request and compare multiple options from businesses ready to earn your business.
 </p>
+
+<br>
 
 <a class="cta" href="https://forms.gle/TPrRuJzgspkW7XSXA">
 Get Better Offers
 </a>
 
-<h2>How It Works</h2>
+</header>
+
+<section>
+
+<h2 class="section-title">Why Buyers Use MakeDealNow</h2>
+
+<div class="cards">
+
+<div class="step">
+<h3>💰 Save Money</h3>
+<p>Businesses compete for your business, helping you find better pricing.</p>
+</div>
+
+<div class="step">
+<h3>⚡ Save Time</h3>
+<p>One request can connect you with multiple providers and options.</p>
+</div>
+
+<div class="step">
+<h3>🤝 Compare Offers</h3>
+<p>Review options side-by-side before making a decision.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">How It Works</h2>
+
+<div class="cards">
 
 <div class="step">
 <h3>1. Submit Your Request</h3>
-<p>
-Tell us what you're looking for and provide a few details.
-</p>
+<p>Tell us what you're looking for and provide a few details.</p>
 </div>
 
 <div class="step">
-<h3>2. Compare Options</h3>
-<p>
-Review competing offers, providers, and opportunities.
-</p>
+<h3>2. Compare Offers</h3>
+<p>Review competing offers, providers, and opportunities.</p>
 </div>
 
 <div class="step">
-<h3>3. Make the Best Deal</h3>
-<p>
-Choose the solution that best fits your needs and budget.
-</p>
+<h3>3. Choose The Best Deal</h3>
+<p>Select the option that best fits your needs and budget.</p>
 </div>
 
-<h2>Popular Categories</h2>
+</div>
 
-<ul>
-<li>Vehicles</li>
-<li>Real Estate</li>
-<li>Home Services</li>
-<li>Insurance</li>
-<li>Mortgages</li>
-<li>Business Services</li>
-<li>Health & Fitness</li>
-<li>Retail & Shopping</li>
-<li>Buy & Sell Anything</li>
-</ul>
+</section>
 
-<h2>Ready to Start?</h2>
+<section>
+
+<h2 class="section-title">Popular Categories</h2>
+
+<div class="category-grid">
+
+<div class="category">🏠 Home Services</div>
+<div class="category">🚗 Vehicles</div>
+<div class="category">🏡 Real Estate</div>
+<div class="category">🛡️ Insurance</div>
+<div class="category">💰 Mortgages</div>
+<div class="category">💼 Business Services</div>
+<div class="category">💪 Health & Fitness</div>
+<div class="category">🛒 Buy & Sell Anything</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="card">
+
+<h2>Why Competition Matters</h2>
+
+<p>
+Many consumers only receive one quote before making a buying decision.
+</p>
+
+<p>
+MakeDealNow encourages competition by helping buyers compare multiple options. Competition can lead to better pricing, better service, and more informed decisions.
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="card" style="text-align:center;">
+
+<h2>Ready To Start?</h2>
 
 <p>
 Submit your request and let businesses compete for your business.
 </p>
 
+<br>
+
 <a class="cta" href="https://forms.gle/TPrRuJzgspkW7XSXA">
 Request Offers Now
 </a>
 
+</div>
+
+</section>
+
 <footer>
-<p>© 2026 MakeDealNow.com</p>
-<p>Connecting Buyers and Sellers for Better Deals.</p>
+
+<p><strong>MakeDealNow.com</strong></p>
+
+<p>
+Compare Offers • Negotiate Better Deals • Save Money
+</p>
+
+<p>
+<a href="index.html">Home</a> |
+<a href="about.html">About</a> |
+<a href="buyers.html">Buyers</a> |
+<a href="business-partners.html">Business Partners</a> |
+<a href="contact.html">Contact</a> |
+<a href="privacy-policy.html">Privacy</a> |
+<a href="terms.html">Terms</a>
+</p>
+
+<p>© 2026 MakeDealNow.com. All Rights Reserved.</p>
+
 </footer>
 
 </body>
