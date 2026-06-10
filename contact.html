@@ -7,14 +7,34 @@
 
 <style>
 body{
-    font-family:Arial,sans-serif;
-    max-width:900px;
-    margin:auto;
-    padding:40px;
-    line-height:1.6;
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+    line-height: 1.6;
+    color: #333;
 }
 
-h1{
+nav{
+    background: #0a4d8c;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+h1,h2{
     color:#0a4d8c;
 }
 
@@ -23,21 +43,49 @@ h1{
     padding:20px;
     border-radius:10px;
     margin-top:20px;
+    box-shadow:0 2px 5px rgba(0,0,0,.1);
 }
 
-a{
-    color:#0a4d8c;
+.cta{
+    display:inline-block;
+    background:#ff9800;
+    color:white;
+    text-decoration:none;
+    padding:15px 25px;
+    border-radius:8px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.cta:hover{
+    opacity:.9;
+}
+
+footer{
+    text-align:center;
+    margin-top:40px;
+    padding-top:20px;
+    border-top:1px solid #ddd;
 }
 </style>
 </head>
 
 <body>
 
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="buyers.html">Buyers</a>
+<a href="business-partners.html">Business Partners</a>
+<a href="contact.html">Contact</a>
+<a href="privacy-policy.html">Privacy</a>
+<a href="terms.html">Terms</a>
+</nav>
+
 <h1>Contact MakeDealNow</h1>
 
 <p>
-Questions, partnership opportunities, or general inquiries?
-We're here to help.
+Questions, partnership opportunities, or general inquiries? We're here to help.
 </p>
 
 <div class="contact-box">
@@ -57,7 +105,7 @@ Interested in receiving leads through MakeDealNow?
 </p>
 
 <p>
-<a href="https://forms.gle/jjDtMEsf4NbKV6c98">
+<a class="cta" href="https://forms.gle/jjDtMEsf4NbKV6c98">
 Apply to Become a Business Partner
 </a>
 </p>
@@ -69,15 +117,17 @@ Looking for better offers or competing quotes?
 </p>
 
 <p>
-<a href="https://forms.gle/TPrRuJzgspkW7XSXA">
+<a class="cta" href="https://forms.gle/TPrRuJzgspkW7XSXA">
 Submit a Lead Request
 </a>
 </p>
 
 </div>
 
-<p>
-<a href="index.html">Return to Home Page</a>
-</p>
+<footer>
+<p>© 2026 MakeDealNow.com</p>
+<p>Connecting Buyers and Sellers for Better Deals.</p>
+</footer>
 
 </body>
+</html>
