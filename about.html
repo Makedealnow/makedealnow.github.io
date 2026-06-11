@@ -1,25 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>About MakeDealNow | Negotiate Better Deals & Save Money</title>
-
-<meta name="description" content="Learn about MakeDealNow and our mission to help consumers compare offers, negotiate better deals, and save money.">
-
-<meta name="robots" content="index, follow">
-<meta name="author" content="MakeDealNow">
-
-<link rel="icon" type="image/png" href="favicon.png">
-
-<meta property="og:title" content="MakeDealNow">
-<meta property="og:description" content="Compare offers and save money.">
-<meta property="og:image" content="https://makedealnow.com/Logo.PNG">
-<meta property="og:url" content="https://makedealnow.com">
-<meta property="og:type" content="website">
-    
 <style>
+
+*{
+    box-sizing:border-box;
+}
 
 body{
     font-family:Arial,sans-serif;
@@ -40,9 +23,11 @@ nav a{
     text-decoration:none;
     margin:15px;
     font-weight:bold;
+    display:inline-block;
 }
 
-nav a:hover{
+nav a:hover,
+nav a.active{
     text-decoration:underline;
 }
 
@@ -82,28 +67,11 @@ section{
     padding:15px 25px;
     border-radius:8px;
     font-weight:bold;
+    transition:.3s;
 }
 
-.stats{
-    display:flex;
-    flex-wrap:wrap;
-    gap:20px;
-}
-
-.stat{
-    flex:1;
-    min-width:200px;
-    text-align:center;
-    background:white;
-    padding:25px;
-    border-radius:10px;
-    box-shadow:0 2px 10px rgba(0,0,0,.1);
-}
-
-.stat h3{
-    color:#0a4d8c;
-    font-size:32px;
-    margin-bottom:10px;
+.button:hover{
+    opacity:.9;
 }
 
 footer{
@@ -119,113 +87,25 @@ footer a{
     margin:10px;
 }
 
+footer a:hover{
+    text-decoration:underline;
+}
+
+@media(max-width:768px){
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+
+    .logo{
+        width:300px;
+    }
+
+    .card{
+        padding:20px;
+    }
+
+}
+
 </style>
-</head>
-
-<body>
-
-<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="buyers.html">Buyers</a>
-<a href="business-partners.html">Business Partners</a>
-<a href="contact.html">Contact</a>
-<a href="privacy-policy.html">Privacy</a>
-<a href="terms.html">Terms</a>
-</nav>
-
-<header>
-
-<img src="Logo.PNG" alt="MakeDealNow Logo" class="logo">
-
-<h1>About MakeDealNow</h1>
-
-<p>
-Helping consumers compare offers, negotiate better deals, and save money.
-</p>
-
-</header>
-
-<section>
-
-<div class="card">
-
-<h2>Our Mission</h2>
-
-<p>
-MakeDealNow was created to help consumers avoid overpaying by making it easier to compare competing offers from businesses.
-</p>
-
-<p>
-Instead of spending hours researching providers, requesting quotes, and negotiating prices, buyers can submit one request and compare multiple options in one place.
-</p>
-
-<p>
-Our goal is simple:
-<strong>help consumers save money while helping businesses connect with motivated buyers.</strong>
-</p>
-
-</div>
-
-<div class="card">
-
-<h2>For Businesses</h2>
-
-<p>
-Businesses can join MakeDealNow to connect with consumers actively searching for products and services.
-</p>
-
-<p>
-Partner businesses receive opportunities to compete for motivated buyers and grow their customer base.
-</p>
-
-<p>
-<a href="https://forms.gle/jjDtMEsf4NbKV6c98" class="button">
-Become a Business Partner
-</a>
-</p>
-
-</div>
-
-<div class="card" style="text-align:center;">
-
-<h2>Ready To Save Money?</h2>
-
-<p>
-Submit one request and compare competing offers from businesses ready to earn your business.
-</p>
-
-<br>
-
-<a href="https://forms.gle/TPrRuJzgspkW7XSXA" class="button">
-Get Better Offers
-</a>
-
-</div>
-
-</section>
-
-<footer>
-
-<p><strong>MakeDealNow.com</strong></p>
-
-<p>
-Compare Offers • Negotiate Better Deals • Save Money
-</p>
-
-<p>
-<a href="index.html">Home</a> |
-<a href="about.html">About</a> |
-<a href="buyers.html">Buyers</a> |
-<a href="business-partners.html">Business Partners</a> |
-<a href="contact.html">Contact</a> |
-<a href="privacy-policy.html">Privacy</a> |
-<a href="terms.html">Terms</a>
-</p>
-
-<p>© 2026 MakeDealNow.com. All Rights Reserved.</p>
-
-</footer>
-
-</body>
-</html>
